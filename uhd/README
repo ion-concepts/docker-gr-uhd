@@ -1,0 +1,2 @@
+To use with Ettus B2xx start container with:
+docker run -ti  -v /dev/bus/usb:/dev/bus/usb --net host --privileged ionconcepts/armhf-uhd bash -l
