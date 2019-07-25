@@ -1,6 +1,6 @@
-FROM ionconcepts/armhf-uhd:3.10.2
+FROM ionconcepts/armhf-uhd:3.9.7
 
-ENV gr_ver 3.7.11
+ENV gr_ver 3.7.13.4
 ENV num_threads 4
 # Bistromath did the heavy lifting..I just brought ARM to the party.
 MAINTAINER ianb@ionconcepts.com version: 0.1
